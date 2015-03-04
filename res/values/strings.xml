@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoginTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    
+    
+    <string-array name="dapartmentArray">  
+        <item>人事部</item>
+        <item>销售部</item>
+        <item>策划部</item>
+        <item>生产部</item>
+        <item>技术部</item>
+    </string-array> 
+    
+    <string-array name="positionArray">  
+        <item>普通员工</item>
+        <item>公司职员</item>
+        <item>部门主管</item>
+        <item>部门经理</item>
+        <item>总经理</item>
+        <item>区域总裁</item>
+    </string-array> 
+
+</resources>

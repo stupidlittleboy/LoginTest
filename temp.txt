@@ -1,0 +1,13 @@
+EmpInfo empInfo = new EmpInfo();
+		empInfo.setEmpNo(et_empNo.getText().toString().trim());
+		empInfo.setEmpPassword(et_pass.getText().toString().trim());
+		empInfo.setEmpName(et_name.getText().toString().trim());
+		empInfo.setEmpSex(sex);
+		empInfo.setEmpNation(et_nation.getText().toString().trim());
+		empInfo.setEmpBorthdate(et_borthdate.getText().toString().trim());
+		empInfo.setEmpAddress(et_address.getText().toString().trim());
+		empInfo.setEmpPhone(et_phone.getText().toString().trim());
+		empInfo.setEmpEmail(et_email.getText().toString().trim());
+		empInfo.setEmpDepartment(spinner_department.getSelectedItem().toString().trim());
+		empInfo.setEmpPosition(spinner_position.getSelectedItem().toString().trim());
+		empInfo.setEmpEntrytiem(et_entrytime.getText().toString().trim());
